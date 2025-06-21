@@ -1,5 +1,7 @@
 pthumeru.ihyll
 
+**/.idea/
+
 **/.venv/
 **/.pdm-python
 **/.python-version
