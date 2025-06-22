@@ -4,6 +4,7 @@ pthumeru.ihyll
 
 **/.venv/
 **/.pdm-python
+**/pdm.lock
 **/.python-version
 **/.py[cod]
 **/__pycache__/
