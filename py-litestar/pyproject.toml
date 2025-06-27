@@ -1,18 +1,17 @@
 [project]
-name = "py-litestar"
+name = "hit-expt-infosec-py-litestar"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "The python implement for"
 authors = [
-    { name = "pthumeruihyll", email = "104620864+pthumeruihyll@users.noreply.github.com" },
+  { name = "pthumeruihyll", email = "104620864+pthumeruihyll@users.noreply.github.com" },
 ]
 dependencies = [
-    "litestar>=2.16.0",
+    "hypercorn>=0.17.3",
+    "litestar[standard]>=2.16.0",
     "niquests>=3.14.1",
     "selectolax>=0.3.30",
-    "hypercorn>=0.17.3",
-    "edgy[sqlite]>=0.32.1",
 ]
-requires-python = "==3.13.*"
+requires-python = ">=3.13"
 license = { text = "MIT" }
 readme = "README.md"
 
